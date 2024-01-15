@@ -6,6 +6,6 @@ export default defineNuxtConfig({
 
   ui: {},
   nuxtServerUtils: {
-    mongodbUri: process.env.MONGODB_URI,
+    mongodbUri: process.env.MONGODB_URI
   }
 })
