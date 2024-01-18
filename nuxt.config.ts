@@ -6,6 +6,7 @@ export default defineNuxtConfig({
 
   ui: {},
   nuxtServerUtils: {
+    // eslint-disable-next-line node/prefer-global/process
     mongodbUri: process.env.MONGODB_URI
   }
 })
