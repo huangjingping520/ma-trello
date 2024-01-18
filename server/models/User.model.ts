@@ -8,6 +8,8 @@ export interface UserDocument extends Document {
   email: string
   password: string
   stripeCustomerId?: string
+
+  comparePassword: (password: string) => Promise<boolean>
 }
 
 const userSchema = new Schema({
