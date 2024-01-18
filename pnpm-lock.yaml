@@ -31,6 +31,9 @@ devDependencies:
   '@sidebase/nuxt-auth':
     specifier: ^0.6.4
     version: 0.6.4(next-auth@4.21.1)(vue@3.4.13)
+  '@types/bcryptjs':
+    specifier: ^2.4.6
+    version: 2.4.6
   eslint:
     specifier: ^8.56.0
     version: 8.56.0
@@ -2129,6 +2132,10 @@ packages:
     dependencies:
       '@tufjs/canonical-json': 2.0.0
       minimatch: 9.0.3
+    dev: true
+
+  /@types/bcryptjs@2.4.6:
+    resolution: {integrity: sha512-9xlo6R2qDs5uixm0bcIqCeMCE6HiQsIyel9KQySStiyqNl2tnj2mP3DX1Nf56MD6KMenNNlBBsy3LJ7gUEQPXQ==}
     dev: true
 
   /@types/estree@1.0.5:
